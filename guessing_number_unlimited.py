@@ -1,8 +1,7 @@
 import random
-n = random.randint(0, 3)
+n = random.randint(1, 6)
 
-print(n)
-print("CAN YOU GUESS MY NUMBER? (1-20)")
+print("CAN YOU GUESS MY NUMBER? (1-5)")
 a = input("Enter your guess: ")
 
 while a != n:
